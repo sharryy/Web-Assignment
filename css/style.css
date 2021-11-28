@@ -462,3 +462,25 @@ textarea {
         margin-left: 0;
     }
 }
+
+@media (max-width: 425px) {
+    .tm-sitename {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .tm-sitename {
+        font-size: 1.0rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .tm-sitename {
+        font-size: 0.8rem;
+    }
+
+    .tm-slogan {
+       visibility: hidden;
+    }
+}
